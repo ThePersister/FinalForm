@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		92DC6AD42E4E2F3A00AD3A38 /* FinalForm in Frameworks */ = {isa = PBXBuildFile; productRef = 92DC6AD32E4E2F3A00AD3A38 /* FinalForm */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		92DC6AB62E4E2C1400AD3A38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92DC6AD42E4E2F3A00AD3A38 /* FinalForm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = FinalFormExample;
 			packageProductDependencies = (
+				92DC6AD32E4E2F3A00AD3A38 /* FinalForm */,
 			);
 			productName = FinalFormExample;
 			productReference = 92DC6AA72E4E2C1200AD3A38 /* FinalFormExample.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 92DC6A9E2E4E2C1200AD3A38;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				92DC6AD22E4E2F3A00AD3A38 /* XCLocalSwiftPackageReference "../../FinalForm" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 92DC6AA82E4E2C1200AD3A38 /* Products */;
 			projectDirPath = "";
@@ -593,6 +602,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		92DC6AD22E4E2F3A00AD3A38 /* XCLocalSwiftPackageReference "../../FinalForm" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../FinalForm;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92DC6AD32E4E2F3A00AD3A38 /* FinalForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FinalForm;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92DC6A9F2E4E2C1200AD3A38 /* Project object */;
 }
